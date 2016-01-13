@@ -7,10 +7,10 @@
         <p class="lead text-right">~ created by <small><a href="http://takentech.com/about.html"><i class="glyphicon glyphicon-fire"></i> 進擊的燊</a></small> ~</p>
         <ul class="list-inline text-center">
             <li>
-                <iframe class="github-btn" src="https://ghbtns.com/github-btn.html?user=lushen&amp;repo=flyaway.css&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
+                <iframe class="github-btn" src="https://ghbtns.com/github-btn.html?user=lushen&amp;repo=flyaway&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
             </li>
             <li>
-                <iframe class="github-btn" src="https://ghbtns.com/github-btn.html?user=lushen&amp;repo=flyaway.css&amp;type=fork&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="102px" height="20px"></iframe>
+                <iframe class="github-btn" src="https://ghbtns.com/github-btn.html?user=lushen&amp;repo=flyaway&amp;type=fork&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="102px" height="20px"></iframe>
             </li>
         </ul>
         {{ content }}
