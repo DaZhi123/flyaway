@@ -23,7 +23,6 @@
     <script type="text/javascript" src="js/back-to-top.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript" src="js/prefixfree.js"></script>
-    <script type="text/javascript" src="js/shake.js"></script>
     <script type="text/javascript" src="js/flyaway.js"></script>
 </body>
 

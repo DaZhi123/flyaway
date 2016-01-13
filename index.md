@@ -22,7 +22,11 @@ title: "Open source CSS3 animation for your website"
 <br>
 
 <section class="center-block text-center">
-    <i id="demo" class="fa fa-paper-plane fa-4x float shadow"></i>
+    <ul class="social list-inline">
+        <li><div class="tryit"></div></li>
+        <li><i id="demo" class="fa fa-paper-plane fa-3x float shadow"></i><li>
+    </ul>
 </section>
+
 
 To Be Continue...
