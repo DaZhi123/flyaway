@@ -1,0 +1,138 @@
+* {
+    transition: all .2s ease-in-out;
+    outline: none;
+}
+
+@keyframes text-fade {
+    0% {
+        opacity: 0;
+    }
+}
+
+body {
+    background-color: #2d7586;
+    font-family: Galdeano, "Hiragino Sans GB", "Microsoft YaHei", Trebuchet, "Trebuchet MS", Tahoma, "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+    color: #fff;
+    animation: text-fade 2s ease-in-out;
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 750px;
+        animation: text-fade 1s;
+    }
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+a {
+    color: #CCD1D9;
+}
+
+a:hover {
+    color: rgba(170, 178, 189, 0.3);
+    text-decoration: none;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    font-size: 12px;
+    display: none;
+}
+
+.btn-default {
+    color: #fff;
+    background-color: rgb(50, 130, 149);
+    border-color: transparent;
+    opacity: 0.8;
+}
+
+.btn-default:hover {
+    color: rgb(50, 130, 149);
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.center-block {
+    margin: 5px auto;
+    width: 300px;
+}
+
+/*.email {
+    background: #fff;
+    border: none;
+    border-radius: 3px;
+    color: #2d7586;
+    font-size: 18px;
+    height: 40px;
+    padding: 0px 10px;
+    width: 240px;
+}*/
+
+pre {
+    font-size: 18px;
+    color: #fff;
+    background-color: rgb(50, 130, 149);
+    border: none;
+}
+
+code {
+    font-family: Galdeano, "Hiragino Sans GB", "Microsoft YaHei", Trebuchet, "Trebuchet MS", Tahoma, "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+    color: #2d7586;
+}
+
+button {
+    font-size: 20px;
+    font-family: 'Pacifico';
+    overflow: visible;
+    border-radius: 3px;
+    position: relative;
+    padding-right: 30px;
+    border: none;
+    color: #2d7586;
+    display: block;
+    margin: 5px auto;
+    height: 50px;
+    width: 150px;
+}
+
+button:hover {
+    background-color: #fff;
+}
+
+button:hover i {
+    transform: rotate(10deg);
+}
+
+button i {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+button.bounce-in {
+    background-color: rgb(50, 130, 149);
+    border: none;
+    color: #fff;
+    padding-right: 6px;
+    animation: bounce-in 0.4s;
+}
+
+@keyframes bounce-in {
+    0% {
+        padding-right: 30px;
+    }
+    40% {
+        padding-right: 6px;
+    }
+    50% {
+        padding-left: 30px;
+    }
+    100% {
+        padding-left: 6px;
+    }
+}
