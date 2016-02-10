@@ -4,7 +4,7 @@
 <body>
     <div class="container jumbotron">
         <h1 class="text-center"><i class="fa fa-paper-plane float shadow"></i> Flyaway<a href="">.css</a></h1>
-        <p class="lead text-right">~ created by <small><a href="http://takentech.com/about"><i class="glyphicon glyphicon-fire"></i> 進擊的燊</a></small> ~</p>
+        <p class="lead text-right">~ created by <small><a href="http://github.com/lushen"><i class="glyphicon glyphicon-fire"></i> 進擊的燊</a></small> ~</p>
         <ul class="list-inline text-center">
             <li>
                 <iframe class="github-btn" src="https://ghbtns.com/github-btn.html?user=lushen&amp;repo=flyaway&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
